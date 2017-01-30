@@ -6,8 +6,7 @@ A template for starting basic Arduino project
  - Copy the file "aruduino-template.ino" into your project folder as the same name.
  - eg. project-001/project-001.ino
  
- Open the .ino file using your Arduino IDE.
+Open the .ino file using your Arduino IDE.
  
- ## Features
- Starts up serial communication.
- 
+## Features
+Starts up serial communication.
