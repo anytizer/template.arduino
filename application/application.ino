@@ -1,21 +1,21 @@
 #include <Arduino.h>
 
+int loops = 0;
+int maxLoops = 1000;
+int delayMoments = 1500;
+char message[20];
+
 void setup()
 {
   Serial.begin(9600);
   while (!Serial);
 }
 
-int loops = 0;
-int maxLoops = 1000;
-char message[20];
 void loop()
 {
   /**
-   * Do something
+   * Do something here
    */
-   // here
-  
   ++loops;
   if(loops > maxLoops)
   {
@@ -25,5 +25,5 @@ void loop()
   sprintf(message, "Loop: #%d", loops);
   Serial.println(message);
  
-  delay(1500);
+  delay(delayMoments);
 }
