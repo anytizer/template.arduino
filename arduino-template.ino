@@ -22,8 +22,8 @@ void loop()
     loops = 0;
   }
   
-  sprintf(message, "Loop: #%d", loops);
+  sprintf(message, "Loop: #%04d", loops);
   Serial.println(message);
  
-  delay(1500);
+  //delay(500);
 }
